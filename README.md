@@ -10,6 +10,13 @@
 
 ---
 
+
+## 📉 Regression Chart
+
+![Regression: AI Adoption vs Labour Productivity](asset/imgchart.png)
+
+> Figure 2: Regression of AI Adoption Rate vs Labour Productivity Index (2006–2025).  
+> Equation: `y = 0.7826x − 10.772` — R² = 0.786
 ## 📌 Overview
 
 A multivariate regression study examining the relationship between global enterprise AI adoption and U.S. labour productivity over 80 quarterly observations (2006 Q1 → 2025 Q1). The analysis covers the full analytics pipeline — from raw data ingestion and cleaning through descriptive statistics, correlation analysis, hypothesis testing, and multiple linear regression.
