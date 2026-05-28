@@ -10,13 +10,6 @@
 
 ---
 
-
-## 📉 Regression Chart
-
-![Regression: AI Adoption vs Labour Productivity](asset/imgchart.png)
-
-> Figure 2: Regression of AI Adoption Rate vs Labour Productivity Index (2006–2025).  
-> Equation: `y = 0.7826x − 10.772` — R² = 0.786
 ## 📌 Overview
 
 A multivariate regression study examining the relationship between global enterprise AI adoption and U.S. labour productivity over 80 quarterly observations (2006 Q1 → 2025 Q1). The analysis covers the full analytics pipeline — from raw data ingestion and cleaning through descriptive statistics, correlation analysis, hypothesis testing, and multiple linear regression.
@@ -55,6 +48,26 @@ The employment coefficient is negative (p < 0.001). Adding headcount without a p
 
 ### ⏱️ No short-term productivity shock after the 2023 AI boom
 A two-sample t-test (pre-2023 vs. 2023–2025) returned p = 0.472 — no statistically significant step-change in mean productivity. Benefits emerge gradually, not all at once.
+
+---
+
+## 📉 Data Visualisations
+
+### Figure 1 — U.S. Labour Productivity (Negatives Removed) 2006–2025
+
+<p align="center">
+  <img src="assets/labor_chart.png" width="750" alt="U.S. Labour Productivity bar chart 2006–2025">
+</p>
+
+> Notable spike in 2020 Q2 reflects the COVID-19 lockdown productivity surge. Productivity plateaus after 2023 despite rising AI adoption — consistent with the t-test finding (p = 0.472) that benefits are gradual, not a step-change.
+
+### Figure 2 — Regression: AI Adoption vs Labour Productivity
+
+<p align="center">
+  <img src="assets/regression_chart.png" width="750" alt="Regression scatter plot of AI adoption vs labour productivity">
+</p>
+
+> Equation: `y = 0.7826x − 10.772` — R² = 0.786. After adjusting for macroeconomic controls, a strong positive linear relationship emerges between AI adoption and labour productivity.
 
 ---
 
@@ -169,8 +182,8 @@ enterprise-ai-productivity/
 
 ## 📎 Appendices (in Report.pdf)
 
-1. Figure 1 — Line chart: U.S. Labour Productivity (Negatives Repaired) 2006–2025
-2. Figure 2 — Scatter + regression line: AI Adoption vs Labour Productivity
+1. Figure 1 — `assets/labor_chart.png` — U.S. Labour Productivity (Negatives Repaired) 2006–2025
+2. Figure 2 — `assets/regression_chart.png` — AI Adoption vs Labour Productivity regression
 3. Figure 3 — Bar chart: Mean Values Across Period
 4. Figure 4 — t-test output: Two-Sample T-Test Result
 
